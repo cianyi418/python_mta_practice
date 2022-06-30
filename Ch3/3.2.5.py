@@ -13,18 +13,27 @@ c = int (input("請輸入 c 的值："))
 # maximum = max(a,b,c)
 # print("最大值為：" + str(maximum))
 
+# def maxnum (a,b,c):
+#     if a > b:
+#         return a
+#     elif a > c:
+#         return a
+#     elif b > a:
+#         return b
+#     elif b > c:
+#         return b
+#     elif c > a:
+#         return c
+#     elif c > b:
+#         return c
+# print ("最大值為：" + str (maxnum (a,b,c)))
+
 def maxnum (a,b,c):
-    if a > b:
+    if a > b > c:
         return a
-    elif a > c:
-        return a
-    elif b > a:
+    elif b > a >c:
         return b
-    elif b > c:
-        return b
-    elif c > a:
-        return c
-    elif c > b:
+    elif c > a >b:
         return c
 print ("最大值為：" + str (maxnum (a,b,c)))
         
